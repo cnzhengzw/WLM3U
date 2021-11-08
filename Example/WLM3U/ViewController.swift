@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let url1 = "http://47.108.143.147/fs/v1/6570255ceb09709311cb152cdc565e12.m3u8"
+        let url1 = "https://vod8.wenshibaowenbei.com/20210910/KZP8TsIi/1000kb/hls/index.m3u8"
         let url2 = "http://47.108.143.147/fs/v1/6570255ceb09709311cb152cdc565e12.m3u8"
         
         textView1.text = url1
@@ -92,6 +92,7 @@ class ViewController: UIViewController {
             
             .download(progress: { (progress, completedCount) in
                 progressView.progress = Float(progress.fractionCompleted)
+                print(progress.fractionCompleted)
                 var text = ""
                 let mb = Double(completedCount) / 1024 / 1024
                 if mb >= 0.1 {
