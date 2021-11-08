@@ -321,6 +321,10 @@ extension Workflow {
         }
     
     private func downloadNextFile() {
+        if waitingFiles.count == 0 {
+            allDownloadsDidFinished()
+            return
+        }
         let fullURL = waitingFiles.removeFirst() // http://qq.com/123/hls/ts/200.ts
         let fileName = fullURL.lastPathComponent // 200.ts
         let fileLocalURL = tsDir!.appendingPathComponent(fileName)
