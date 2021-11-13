@@ -1,7 +1,7 @@
 PODS:
-  - Alamofire (5.1.0)
+  - Alamofire (5.4.3)
   - WLM3U (0.1.5):
-    - Alamofire
+    - Alamofire (~> 5.1)
 
 DEPENDENCIES:
   - WLM3U (from `../`)
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
-  WLM3U: eb0658d87de88e2f89454cfc218ac09bc2f908cf
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  WLM3U: 7f587b1beb6cdbc418bff18d4e41fc1cb8b4f6b0
 
 PODFILE CHECKSUM: 5ca7205dd70ca1d085c17830ab66e7a20579aa62
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0.rc.1

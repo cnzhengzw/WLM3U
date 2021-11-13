@@ -11,7 +11,7 @@
     "Willie": "willie.wangwei@gmail.com"
   },
   "source": {
-    "git": "https://github.com/WillieWangWei/WLM3U.git",
+    "git": "https://github.com/cnzhengzw/WLM3U.git",
     "tag": "0.1.5"
   },
   "source_files": "Sources/*.swift",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "Alamofire": [
-
+      "~> 5.1"
     ]
   },
   "swift_version": "5.1"
