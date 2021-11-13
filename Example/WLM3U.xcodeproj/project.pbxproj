@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		149379AADAF43519AC1C0545 /* WLM3U.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLM3U.podspec; path = ../WLM3U.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		149379AADAF43519AC1C0545 /* WLM3U.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WLM3U.podspec; path = ../WLM3U.podspec; sourceTree = "<group>"; };
 		452401C6CE603EBE6ABD8F4B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WLM3U_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLM3U_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
